@@ -3,10 +3,10 @@ import { ref } from 'vue';
 
 const estudios = ref('educacion_universitaria');
 const opcionesEstudios = [
-  { id: 'basica', label: 'Educación Básica', value: 'educacion_basica' },
-  { id: 'media', label: 'Educación Media', value: 'educacion_media' },
-  { id: 'tecnica', label: 'Educación Técnica', value: 'educacion_tecnica' },
-  { id: 'universitaria', label: 'Educación Universitaria', value: 'educacion_universitaria' }
+  { id: 'basica', label: 'Educación Básica', value: 'Educación Básica' },
+  { id: 'media', label: 'Educación Media', value: 'Educación Media' },
+  { id: 'tecnica', label: 'Educación Técnica', value: 'Educación Técnica' },
+  { id: 'universitaria', label: 'Educación Universitaria', value: 'Educación Universitaria' }
 ];
 
 const diaSeleccionado = ref('');
